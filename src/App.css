@@ -1,26 +1,8 @@
-.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-  height: 20px;
-}
-
-.MuiListItemIcon-root.css-cveggr-MuiListItemIcon-root {
-  color: white;
-}
-.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
-  color: white;
-}
-.css-1t29gy6-MuiToolbar-root {
-  background: #352f44;
-}
-.MuiSvgIcon-root {
-  color: white;
-}
-.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-  background: rgba(53, 47, 68, 0.2);
-}
-.css-3v9zut {
-  z-index: 1;
+*:hover {
+  background-color: none;
 }
 .trapezoid {
+  color: white;
   height: 700px;
   width: 100px;
   padding-left: 30px;
@@ -29,21 +11,20 @@
   left: 0;
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
-  padding-left: 30px;
   justify-content: space-around;
   align-items: center;
+  padding: 100px 0;
+  padding-left: 30px;
   transform: translateY(-50%);
 }
 .trapezoid::before {
-  position: relative;
   content: " ";
-  border-bottom: 130px solid #5c5470;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  position: relative;
   height: 30px;
   width: 700px;
-
+  border-bottom: 130px solid #009dae;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
   position: absolute;
   top: 50%;
   right: 0;
@@ -60,42 +41,12 @@ div.trapezoid
   > span.MuiSwitch-root.MuiSwitch-sizeMedium.css-lu9khh-MuiSwitch-root {
   margin: 0;
 }
-div.trapezoid > li:nth-child(3) {
-  background: rgba(53, 47, 68, 0.5);
-  border-radius: 12px;
-}
-div.trapezoid > ul:nth-child(6) > div:hover,
-div.trapezoid > ul:nth-child(7) > div:hover {
-  background: none;
-}
-div.trapezoid
-  > ul:nth-child(6)
-  > div
-  > div.MuiListItemIcon-root.css-cveggr-MuiListItemIcon-root
-  > div
-  > div,
-div.trapezoid
-  > ul:nth-child(7)
-  > div
-  > div.MuiListItemIcon-root.css-cveggr-MuiListItemIcon-root
-  > div
-  > div {
-  padding: 15px 2px;
-}
 
 div.trapezoid
   > ul:nth-child(6)
   > div
   > div.MuiListItemIcon-root.css-cveggr-MuiListItemIcon-root
   > div
-  > div
-  > fieldset,
-div.trapezoid
-  > ul:nth-child(7)
-  > div
-  > div.MuiListItemIcon-root.css-cveggr-MuiListItemIcon-root
-  > div
-  > div
-  > fieldset {
-  border: 1px solid rgba(53, 47, 68, 0.5);
+  > div {
+  padding: 15px 2px;
 }
